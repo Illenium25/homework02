@@ -6,8 +6,6 @@
 }
 
 .header {
-  width: 1600px;
-  height: 80px;
   flex-shrink: 0;
 }
 
@@ -18,6 +16,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
+  text-decoration: none;
 }
 
 .studio {
@@ -29,7 +28,22 @@
   letter-spacing: 0.78px;
 }
 
-.studia :hover .studia :focus {
+.page-list {
+  list-style: none;
+}
+
+.studia {
+  color: #212121;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+.studia:hover,
+.studia:focus {
   color: #2196f3;
   font-size: 14px;
   font-weight: 500;
@@ -37,15 +51,18 @@
   letter-spacing: 0.28px;
 }
 
-.portfolio :focus .portfolio :hover {
-  color: #2196f3;
+.portfolio {
+  color: #212121;
   font-size: 14px;
+  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  text-decoration: none;
 }
 
-.contacts:focus .contacts:hover {
+.portfolio:focus,
+.portfolio:hover {
   color: #2196f3;
   font-size: 14px;
   font-style: normal;
@@ -54,18 +71,54 @@
   letter-spacing: 0.28px;
 }
 
-.link-header:hover .link-header:focus {
-  color: #757575;
+.contacts {
+  color: #212121;
   font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+.contacts:focus,
+.contacts:hover {
+  color: #2196f3;
+  font-size: 14px;
+  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
 }
+
+.list-header {
+  list-style: none;
+}
+
+.link-header {
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+.link-header:hover,
+.link-header:focus {
+  color: #2196f3;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
 /* first box index html */
 
 .first-box {
-  width: 1600px;
-  height: 600px;
   flex-shrink: 0;
   background: #2f303a;
 }
@@ -165,8 +218,6 @@
 /* footer */
 
 .footer {
-  width: 1600px;
-  height: 252px;
   flex-shrink: 0;
   background: #2f303a;
 }
@@ -178,6 +229,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
+  text-decoration: none;
 }
 
 .studio-foot {
@@ -199,11 +251,15 @@
 .link-foot {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
+  text-decoration: none;
 }
 
 /* partfolio page */
+
 .sec-portfolio {
   display: flex;
   width: 1600px;
