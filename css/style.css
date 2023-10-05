@@ -1,6 +1,12 @@
 /* INDEX HTML */
+:root {
+  --second-color: #2196f3;
+  --text-color: #212121;
+  --text: Roboto, sans-serif;
+  --logo-text: Raleway, sans-serif;
+}
 .body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   color: #212121;
   background: #fff;
 }
@@ -10,9 +16,10 @@
 }
 
 .logo {
-  color: #2196f3;
-  font-family: Raleway;
+  color: var(--second-color);
+  font-family: var(--logo-text);
   font-size: 26px;
+  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
@@ -21,7 +28,7 @@
 
 .studio {
   color: #000;
-  font-family: Raleway;
+  font-family: var(--logo-text);
   font-size: 26px;
   font-weight: 700;
   line-height: normal;
@@ -33,9 +40,9 @@
 }
 
 .studia {
-  color: #212121;
+  color: var(--text-color);
+  font-family: var(--text);
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
@@ -44,17 +51,19 @@
 
 .studia:hover,
 .studia:focus {
-  color: #2196f3;
+  color: var(--second-color);
+  font-family: var(--text);
   font-size: 14px;
+  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
 }
 
 .portfolio {
-  color: #212121;
+  color: var(--text-color);
+  font-family: var(--text);
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
@@ -63,7 +72,8 @@
 
 .portfolio:focus,
 .portfolio:hover {
-  color: #2196f3;
+  color: var(--second-color);
+  font-family: var(--text);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -72,9 +82,9 @@
 }
 
 .contacts {
-  color: #212121;
+  color: var(--text-color);
+  font-family: var(--text);
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
@@ -83,7 +93,8 @@
 
 .contacts:focus,
 .contacts:hover {
-  color: #2196f3;
+  color: var(--second-color);
+  font-family: var(--text);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -97,18 +108,18 @@
 
 .link-header {
   color: #757575;
+  font-family: var(--text);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  text-decoration: none;
 }
 
 .link-header:hover,
 .link-header:focus {
-  color: #2196f3;
-  font-family: Roboto;
+  color: var(--second-color);
+  font-family: var(--text);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -126,7 +137,9 @@
 .main-title {
   color: #fff;
   text-align: center;
+  font-family: var(--text);
   font-size: 44px;
+  font-style: normal;
   font-weight: 900;
   line-height: 60px;
   letter-spacing: 2.64px;
@@ -142,7 +155,9 @@
 .text-main-button {
   color: #fff;
   text-align: center;
+  font-family: var(--text);
   font-size: 16px;
+  font-style: normal;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
@@ -152,22 +167,21 @@
 /* second box index html */
 
 .adv-title {
-  color: #212121;
+  color: var(--text-color);
+  font-family: var(--text);
   font-size: 14px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-  width: 270px;
 }
 
 .adv-p {
   color: #757575;
+  font-family: var(--text);
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.42px;
-  width: 270px;
-  height: 72px;
   flex-shrink: 0;
 }
 
@@ -177,41 +191,33 @@
   background: #f5f4fa;
 }
 .igor {
-  width: 270px;
-  height: 368px;
   flex-shrink: 0;
 }
 .olga {
-  width: 270px;
-  height: 368px;
   flex-shrink: 0;
 }
 
 .mikola {
-  width: 270px;
-  height: 368px;
   flex-shrink: 0;
 }
 .michailo {
-  width: 270px;
-  height: 368px;
   flex-shrink: 0;
 }
 
 .name {
-  color: #212121;
+  color: var(--text-color);
+  font-family: var(--text);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  line-height: normal;
   letter-spacing: 0.48px;
 }
 
 .proffetion {
   color: #757575;
+  font-family: var(--text);
   text-align: center;
   font-size: 16px;
-  line-height: normal;
   letter-spacing: 0.48px;
 }
 
@@ -223,26 +229,29 @@
 }
 
 .web-foot {
-  color: #2196f3;
-  font-family: Raleway;
+  color: var(--second-color);
+  font-family: var(--logo-text);
   font-size: 26px;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 0.78px;
   text-decoration: none;
 }
 
 .studio-foot {
   color: #fff;
-  font-family: Raleway;
+  font-family: var(--logo-text);
   font-size: 26px;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 0.78px;
+}
+
+.address {
+  font-style: normal;
 }
 
 .addr {
   color: #fff;
+  font-family: var(--text);
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.42px;
@@ -250,24 +259,47 @@
 
 .link-foot {
   color: rgba(255, 255, 255, 0.6);
+  font-family: var(--text);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
   text-decoration: none;
 }
 
+.link-foot:focus,
+.link-foot:hover {
+  color: var(--second-color);
+  font-family: var(--text);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
 /* partfolio page */
 
 .sec-portfolio {
-  display: flex;
-  width: 1600px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 94px;
   background: #fff;
+}
+
+.filter {
+  color: var(--text-color);
+  font-family: var(--text);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+  cursor: pointer;
+}
+
+.filter:hover,
+.filter:focus {
+  background: #2196f3;
+}
+
+.link-work {
+  text-decoration: none;
 }
 
 .work {
@@ -279,7 +311,8 @@
 }
 
 .work-name {
-  color: #212121;
+  color: var(--text-color);
+  font-family: var(--text);
   font-size: 18px;
   font-weight: 700;
   line-height: 36px;
@@ -288,6 +321,7 @@
 }
 
 .work-title {
+  font-family: var(--text);
   color: #757575;
   font-size: 16px;
   line-height: 30px;
