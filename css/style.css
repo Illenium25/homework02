@@ -49,6 +49,10 @@
   text-decoration: none;
 }
 
+.page-list .studia.current {
+  color: var(--second-color);
+}
+
 .studia:hover,
 .studia:focus {
   color: var(--second-color);
@@ -327,4 +331,9 @@
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.48px;
+}
+
+.page-list .filter.current {
+  color: #fff;
+  background-color: var(--second-color);
 }
