@@ -281,6 +281,9 @@
 }
 
 /* partfolio page */
+.page-list .portfolio.current {
+  color: var(--second-color);
+}
 
 .sec-portfolio {
   gap: 94px;
