@@ -1,6 +1,7 @@
 /* INDEX HTML */
 :root {
-  --second-color: #2196f3;
+  --second-color: #757575;
+  --logo-color: #2196f3;
   --text-color: #212121;
   --text: Roboto, sans-serif;
   --logo-text: Raleway, sans-serif;
@@ -16,7 +17,7 @@
 }
 
 .logo {
-  color: var(--second-color);
+  color: var(--logo-color);
   font-family: var(--logo-text);
   font-size: 26px;
   font-style: normal;
@@ -50,12 +51,12 @@
 }
 
 .page-list .studia.current {
-  color: var(--second-color);
+  color: var(--logo-color);
 }
 
 .studia:hover,
 .studia:focus {
-  color: var(--second-color);
+  color: var(--logo-color);
   font-family: var(--text);
   font-size: 14px;
   font-style: normal;
@@ -76,7 +77,7 @@
 
 .portfolio:focus,
 .portfolio:hover {
-  color: var(--second-color);
+  color: var(--logo-color);
   font-family: var(--text);
   font-size: 14px;
   font-style: normal;
@@ -97,7 +98,7 @@
 
 .contacts:focus,
 .contacts:hover {
-  color: var(--second-color);
+  color: var(--logo-color);
   font-family: var(--text);
   font-size: 14px;
   font-style: normal;
@@ -111,7 +112,7 @@
 }
 
 .link-header {
-  color: #757575;
+  color: var(--second-color);
   font-family: var(--text);
   font-size: 14px;
   font-style: normal;
@@ -123,7 +124,7 @@
 
 .link-header:hover,
 .link-header:focus {
-  color: var(--second-color);
+  color: var(--logo-color);
   font-family: var(--text);
   font-size: 14px;
   font-style: normal;
@@ -170,43 +171,64 @@
 }
 
 /* second box index html */
+.third-title {
+  color: var(--text-color);
+  text-align: center;
+  font-family: var(--text);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
 
 .adv-title {
   color: var(--text-color);
   font-family: var(--text);
   font-size: 14px;
+  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
 
-.adv-p {
-  color: #757575;
+.adv-paragraph {
+  color: var(--second-color);
   font-family: var(--text);
   font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
-  flex-shrink: 0;
 }
 
 /* our team */
 
+.our-team-tile {
+  color: var(--text-color);
+  text-align: center;
+  font-family: var(--text);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
 .our-team {
   background: #f5f4fa;
 }
 .igor {
-  flex-shrink: 0;
+  background: #fff;
 }
 .olga {
-  flex-shrink: 0;
+  background: #fff;
 }
 
 .mikola {
-  flex-shrink: 0;
+  background: #fff;
 }
 .michailo {
-  flex-shrink: 0;
+  background: #fff;
 }
 
 .name {
@@ -214,15 +236,20 @@
   font-family: var(--text);
   text-align: center;
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
+  line-height: normal;
   letter-spacing: 0.48px;
 }
 
 .proffetion {
-  color: #757575;
+  color: var(--second-color);
   font-family: var(--text);
   text-align: center;
   font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   letter-spacing: 0.48px;
 }
 
@@ -234,7 +261,7 @@
 }
 
 .web-foot {
-  color: var(--second-color);
+  color: var(--logo-color);
   font-family: var(--logo-text);
   font-size: 26px;
   font-weight: 700;
@@ -273,7 +300,7 @@
 
 .link-foot:focus,
 .link-foot:hover {
-  color: var(--second-color);
+  color: var(--logo-color);
   font-family: var(--text);
   font-size: 14px;
   font-weight: 500;
@@ -282,7 +309,7 @@
 
 /* partfolio page */
 .page-list .portfolio.current {
-  color: var(--second-color);
+  color: var(--logo-color);
 }
 
 .sec-portfolio {
@@ -292,9 +319,10 @@
 
 .filter {
   color: var(--text-color);
+  background-color: #f5f4fa;
   font-family: var(--text);
-  text-align: center;
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.48px;
@@ -303,7 +331,8 @@
 
 .filter:hover,
 .filter:focus {
-  background: #2196f3;
+  background-color: #2196f3;
+  color: #fff;
 }
 
 .link-work {
@@ -338,5 +367,5 @@
 
 .page-list .filter.current {
   color: #fff;
-  background-color: var(--second-color);
+  background-color: var(--logo-color);
 }
